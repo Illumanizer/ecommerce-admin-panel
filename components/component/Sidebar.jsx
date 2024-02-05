@@ -10,8 +10,8 @@ export default function Sidebar() {
   const currPath=usePathname();
   console.log(currPath)
   return (
-    <div className="flex  bg-gray-200">
-        <aside className="w-64 bg-gradient-to-b from-white to-gray-100 ">
+    <div className="flex min-h-screen h-auto max-h-full  bg-gray-200">
+        <aside className="w-64  h-full bg-gradient-to-b from-white to-gray-100 ">
           <div className="h-16 flex items-center justify-center border-b-2">
             <h2 className="text-2xl font-semibold text-gray-800">
               Admin Panel
